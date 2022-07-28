@@ -1,26 +1,31 @@
-import { ReactNode } from 'react';
-import { Text } from 'react-native';
-
 import {
   Container,
   Box, 
   Heading,
-  Subtext
+  Image,
+  SubHeading
 } from './styles';
 
 interface OnboardingProps {
 }
 
+import banner from './../../assets/images/banner/banner.png'
+
 const Onboarding = ({}: OnboardingProps) => {
   return (
     <Container>
 
+      <Image 
+        source={banner}
+        resizeMode={'contain'}
+      />
+
       <Box>
         <Heading>Descubra a{'\n'}cidade</Heading>
-        <Subtext>
+        <SubHeading>
           A forma mais divertida e rápida de conhecer
           lugares incríveis.
-        </Subtext>
+        </SubHeading>
       </Box>
 
     </Container>

@@ -1,5 +1,3 @@
-import { RFValue } from 'react-native-responsive-fontsize'
-
 export default {
   colors: {
     brand01: "#E4203E",
