@@ -3,15 +3,26 @@ import {
   Box, 
   Heading,
   Image,
-  SubHeading
+  SubHeading,
+  ButtomBox
 } from './styles';
 
 interface OnboardingProps {
 }
 
 import banner from './../../assets/images/banner/banner.png'
+import { Button } from '../../components/Button';
+import { Alert } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 const Onboarding = ({}: OnboardingProps) => {
+
+  const { navigate } = useNavigation()
+
+  const handleGoToHome = () => {
+    navigate('Home')
+  }
+
   return (
     <Container>
 
@@ -27,6 +38,15 @@ const Onboarding = ({}: OnboardingProps) => {
           lugares incríveis.
         </SubHeading>
       </Box>
+
+      <ButtomBox>
+        <Button 
+          variant='primary'
+          title={'Entrar'}
+          onPress={handleGoToHome}
+      
+        />
+      </ButtomBox>
 
     </Container>
   );

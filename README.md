@@ -1,5 +1,3 @@
-
-
 <h1 align="center">
   <img alt="pulga" title="pulga" src=".github/logo.png" />
 </h1>
@@ -15,30 +13,31 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
- <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt="NLW 04" />
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="Happy" src=".github/cover.png" width="100%" />
+  <img alt="pulga" src=".github/cover.png" width="100%" />
 </p>
 
 ## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [React](https://reactjs.org)
-- [Next.js](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [React Native](https://reactjs.org)
+- [Expo](https://expo.dev/)
+- [Styled Components](https://styled-components.com/)
+- [Typescript](https://www.typescriptlang.org/)
 
 ## 💻 Projeto
-
-O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
+Projeto desenvolvido pela Catapulta.dev, baseado no app pulga [link](https://play.google.com/store/apps/details?id=app.bungo.pulga&hl=pt_BR&gl=US)
+<br />
+use Pulga para encontrar, desbloquear e utilizar os patinetes elétricos compartilhados espalhados por toda a cidade de Gramado/RS.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/zyvEe2wmGPXUcqHIfjxu9E/Catapulta---Pulga?node-id=1017%3A1101). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 ## 🚀 Como executar
 
